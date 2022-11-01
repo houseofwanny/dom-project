@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="Cart-Container">
+        <div class="Header">
+            <h3 class="Heading">Shopping Cart</h3>
+            <h5 class="Action">Remove all</h5>
+            </div>
+            <div class="Cart-Items">
+                <div class="image-box">
+                <img src="./domfood.jpg"alt="Me" height="120px">
+                </div>
+                <div class="about">
+                <h1 class="title">BREAKFAST</h1>
+                <h3 class="subtitle">HAND BURGER</h3>
+                <svg id="heart-btn" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="heart1" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+                </div>
+                <div class="counter"></div>
+                <div class="prices"></div>
+                <div class="counterr">
+                    <div class="btn">+</div>
+                    <div class="count">2</div>
+                    <div class="btnn">-</div>
+                    </div>
+                    <div class="prices">
+                        <div class="amount">$300</div>
+                        <div class="save"><u>Save for later</u></div>
+                        <div class="remove"><u>Remove</u></div>
+                        </div>
+                </div>
+                
+                <div class="Cart-Items">
+                    <div class="box">
+                    <img src="./domfood3.jpg"alt="Me" height="110px" width="120px">
+                    </div>
+                    <div class="about">
+                    <h1 class="title">LUNCH</h1>
+                    <h3 class="subtitle">CHICKEN&CHIPS</h3>
+                    <svg id="heart-btnn"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="heart2" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                      </svg>
+                    </div>
+                    <div class="counterr"></div>
+                    <div class="prices"></div>
+                    <div class="counterr">
+                        <div >
+                            <button id="increase" onclick="increment()" class="btn">+</button>
+                        </div>
+                        
+                            <div id="countsum" class="count">0</div>
+                        
+                        <div >
+                            <button id="decrease" onclick="decrement()" class="btnn">-</button>
+                        </div>
+                        </div>
+                        <div class="prices">
+                            <div class="amount">$300</div>
+                            <div class="save"><u>Save for later</u></div>
+                            <div class="remove"><u>Remove</u></div>
+                            </div>
+                            </div>
+                            <hr> 
+ <div class="checkout">
+ <div class="total">
+ <div>
+ <div  class="Subtotal">Sub-Total</div>
+ <div class="items">0 items</div>
+ </div>
+ <div id="sub" class="total-amount">$0</div>
+ </div>
+ <button id="myBtn" type="checkout"class="buttonn">Checkout $0</button>
+ </div>
+                            
+                                        
+                                        
+                                        
+                            
+                            
+                            
+                
+    </div>
+    <script src="./dom.js"></script>
+</body>
+
+<!-- let value = document.getElementById('increase')
+let count = document.getElementById('countsum')
+let counter = 0;
+
+const increment = ()=> {
+    value.addEventListener('click', (e)=> {
+        counter +=1
+        count.innerHTML = counter;
+
+    }) -->
+}
+</html>
